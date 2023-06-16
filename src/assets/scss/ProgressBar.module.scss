@@ -1,0 +1,16 @@
+.root {
+  width: 100%;
+  height: 16px;
+  border-radius: 4px;
+  background: #e9ecef;
+  overflow: hidden;
+
+  & > div {
+    background: #0d6efd;
+    color: #fff;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
